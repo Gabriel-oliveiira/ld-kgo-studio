@@ -1,0 +1,124 @@
+{
+  "identity": {
+    "name": "KGO Marketing",
+    "persona": "E1 - The Anti-AI Designer",
+    "tone": "Bold, Energetic, Swiss-Modern, Creative",
+    "archetype": "Swiss & High-Contrast (with Electric Orange twist)"
+  },
+  "technical_stack": {
+    "framework": "React 19",
+    "styling": "Tailwind CSS",
+    "animation": "Framer Motion",
+    "icons": "Lucide React",
+    "backend": "FastAPI (Python)"
+  },
+  "design_system": {
+    "colors": {
+      "primary": "#FF4500",
+      "primary_foreground": "#FFFFFF",
+      "background": "#FFFFFF",
+      "foreground": "#121212",
+      "muted": "#F8F8F8",
+      "muted_foreground": "#64748B",
+      "border": "#E2E8F0",
+      "accent": "#FFF7ED"
+    },
+    "typography": {
+      "font_heading": "Syne, Clash Display, or Archivo Black (Google Fonts)",
+      "font_body": "Manrope or DM Sans",
+      "scale": {
+        "h1": "text-6xl md:text-8xl font-bold tracking-tighter leading-[0.9]",
+        "h2": "text-4xl md:text-6xl font-bold tracking-tight",
+        "h3": "text-2xl md:text-3xl font-semibold",
+        "body": "text-base md:text-lg leading-relaxed",
+        "label": "text-xs font-mono uppercase tracking-widest text-muted-foreground"
+      }
+    },
+    "spacing": {
+      "container": "container mx-auto px-4 md:px-8",
+      "section_py": "py-24 md:py-32",
+      "gap_default": "gap-8"
+    },
+    "radius": {
+      "default": "rounded-none",
+      "button": "rounded-full",
+      "card": "rounded-sm"
+    },
+    "shadows": {
+      "card": "hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-shadow duration-300",
+      "button": "hover:shadow-lg hover:scale-105 active:scale-95 transition-all"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": {
+        "url": "https://images.unsplash.com/photo-1759259941595-a7727ed3b3a4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMG9yYW5nZSUyMGFuZCUyMHdoaXRlJTIwZ2VvbWV0cmljJTIwY3JlYXRpdmUlMjBkZXNpZ258ZW58MHx8fHwxNzcyMzc3MjYwfDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Abstract wavy orange lines",
+        "usage": "Hero section background or side visual"
+      },
+      "portfolio": [
+        {
+          "url": "https://images.unsplash.com/photo-1758560936904-4eb0049284aa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwbW9kZXJuJTIwcHJvZHVjdCUyMHBob3RvZ3JhcGh5JTIwYWVzdGhldGljfGVufDB8fHx8MTc3MjM3NzI2MHww&ixlib=rb-4.1.0&q=85",
+          "title": "Visual & Storytelling",
+          "category": "Product Design",
+          "size": "col-span-1 md:col-span-2 row-span-2"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1749766878223-6ceae855b28b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA8Mzl8MHwxfHNlYXJjaHw0fHxtaW5pbWFsaXN0JTIwbW9kZXJuJTIwcHJvZHVjdCUyMHBob3RvZ3JhcGh5JTIwYWVzdGhldGljfGVufDB8fHx8MTc3MjM3NzI2MHww&ixlib=rb-4.1.0&q=85",
+          "title": "Social Media",
+          "category": "Branding",
+          "size": "col-span-1 md:col-span-1 row-span-1"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1759526997116-c8f4f2431869?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA8Mzl8MHwxfHNlYXJjaHwzfHxtaW5pbWFsaXN0JTIwbW9kZXJuJTIwcHJvZHVjdCUyMHBob3RvZ3JhcGh5JTIwYWVzdGhldGljfGVufDB8fHx8MTc3MjM3NzI2MHww&ixlib=rb-4.1.0&q=85",
+          "title": "Content Creator",
+          "category": "Packaging",
+          "size": "col-span-1 md:col-span-1 row-span-1"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1760108232787-40ec40f9a706?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA8Mzl8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwbW9kZXJuJTIwcHJvZHVjdCUyMHBob3RvZ3JhcGh5JTIwYWVzdGhldGljfGVufDB8fHx8MTc3MjM3NzI2MHww&ixlib=rb-4.1.0&q=85",
+          "title": "Direção Criativa",
+          "category": "Strategy",
+          "size": "col-span-1 md:col-span-2 row-span-1"
+        }
+      ]
+    }
+  },
+  "layout_strategies": {
+    "hero": {
+      "style": "Split Asymmetry",
+      "instruction": "Left side: Massive typography 'WE BUILD BRANDS'. Right side: Abstract orange visual. Background: White with subtle grain."
+    },
+    "portfolio_grid": {
+      "style": "Bento Grid (Mode A)",
+      "instruction": "Use a grid with variable column spans. Images must zoom slightly on hover. Text reveals on hover."
+    },
+    "services": {
+      "style": "Minimal List",
+      "instruction": "Large typography list with thin separators. Hovering a service changes the cursor or shows a floating image."
+    }
+  },
+  "components": {
+    "navbar": "Sticky, glassmorphism (white/80), minimalist logo 'KGO', rounded-full 'Let's Talk' button.",
+    "buttons": "Pill-shaped, magnetic hover effect. Primary: Orange bg, White text. Secondary: Outline black.",
+    "footer": "Massive 'KGO' typography in background, grid layout for links. Dark theme (Black bg, White text)."
+  },
+  "motion_guidelines": {
+    "library": "framer-motion",
+    "defaults": {
+      "duration": 0.6,
+      "ease": "[0.22, 1, 0.36, 1]"
+    },
+    "scroll": "Use useScroll and useTransform for parallax effects on images.",
+    "hover": "Scale 0.98 on press, Scale 1.05 on hover for cards."
+  },
+  "universal_guidelines": [
+    "Do NOT use gradients for text.",
+    "Ensure 'Orange' is used sparingly for impact (Buttons, Highlights), not for backgrounds unless it's a specific section.",
+    "Use 'data-testid' for all interactive elements.",
+    "Mobile First: Stack grids to single columns on mobile.",
+    "Accessibility: Check contrast of Orange on White (use bold weight if needed).",
+    "Forms: Use Shadcn Input/Form components but styled to match the Swiss aesthetic (square corners or slight radius)."
+  ],
+  "instructions_to_main_agent": "1. Install 'framer-motion', 'lucide-react', 'clsx', 'tailwind-merge'. 2. Create a 'LandingPage' component. 3. Use the provided images for the portfolio section. 4. Implement the 'Bento Grid' layout for portfolio. 5. Ensure the Contact form sends data to the FastAPI backend (mock the fetch call if backend not ready)."
+}
