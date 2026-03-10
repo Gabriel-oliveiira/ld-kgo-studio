@@ -5,9 +5,9 @@ import logo from '../kgo1.png';
 
 const navLinks = [
   { name: 'Início', href: '#hero' },
+  { name: 'Sobre', href: '#about' },
   { name: 'Serviços', href: '#services' },
   { name: 'Portfólio', href: '#portfolio' },
-  { name: 'Sobre', href: '#about' },
   { name: 'Contato', href: '#contact' },
 ];
 

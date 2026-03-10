@@ -19,9 +19,9 @@ const LandingPage = () => {
       {/* Main content */}
       <main>
         <HeroSection />
+        <AboutSection />
         <ServicesSection />
         <PortfolioSection />
-        <AboutSection />
         <ContactSection />
       </main>
 

@@ -12,8 +12,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Telefone',
-    value: '(85) 99999-9999',
-    href: 'tel:+5585999999999',
+    value: '+55 85 8543-8396',
+    href: 'tel:+558585438396',
   },
   {
     icon: Mail,
@@ -121,7 +121,7 @@ const ContactSection = () => {
                   <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm group-hover:bg-[#FF4500] transition-colors">
                     <info.icon
                       size={20}
-                      className="text-[#FF4500] group-hover:text-white transition-colors"
+                      className="block shrink-0 translate-y-[0.5px] text-[#FF4500] group-hover:text-white transition-colors"
                     />
                   </div>
                   <div>
